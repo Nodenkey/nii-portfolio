@@ -11,12 +11,12 @@ export const NavBarWrapper = styled.div`
   justify-content: space-between;
 `;
 export const NavBrand = styled.div`
+  cursor: default;  
   svg{
   height: 70px;
   }
 `;
 export const Hamburger = styled.div`
-  cursor: pointer;
   & >:last-child{
   margin-bottom: 0;
   }

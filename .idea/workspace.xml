@@ -2,48 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nii-portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/nii.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/home.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/scroll-to-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.style.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593205208859</updated>
       <workItem from="1593205210507" duration="11534000" />
-      <workItem from="1593239911667" duration="5074000" />
+      <workItem from="1593239911667" duration="20884000" />
+      <workItem from="1593333392538" duration="334000" />
     </task>
     <servers />
   </component>
@@ -113,5 +82,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593228992861" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1593292227514">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1593292227514" />
   </component>
 </project>

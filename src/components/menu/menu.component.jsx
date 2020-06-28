@@ -1,41 +1,22 @@
-import React, {useEffect, useRef} from 'react';
-import {MenuCurtain, MenuWrapper} from "./menu.style";
-import {gsap, Power3} from "gsap";
-import {CSSTransition, Transition} from "react-transition-group";
+import React from 'react';
+import {MenuCurtain, MenuItem, MenuItemContainer, MenuWrapper} from "./menu.style";
 
-const Menu = ({show}) => {
-        let curtain = useRef(null);
-        // const begin = () => {
-        //     gsap.from([curtain.current], {
-        //         duration: .4,
-        //         opacity: 0,
-        //         ease: Power3.easeOut,
-        //         rotateY: 50,
-        //         stagger: .2,
-        //     })
-        // }
-    const onEnter = node => {
-        console.log(node);
-        console.log('ok');
-    }
-    const onExit = node => {
-        console.log(node);
-    }
-     return (
-        <Transition
-            timeout={1000}
-            in={show}
-            unmountOnExit
-            classNames="curtain"
-            onExit={() => {console.log('the thing')}}
-            onEnter={onEnter}
-        >
-            <MenuWrapper className="curtain">
-                <MenuCurtain ref={el => curtain = el}/>
-                <MenuCurtain className="curtain"/>
-                <MenuCurtain className="curtain"/>
-            </MenuWrapper>
-        </Transition>
+const Menu = () => {
+
+
+    return (
+        <MenuWrapper>
+            <MenuCurtain className="curtain"/>
+            <MenuCurtain className="curtain">
+                <MenuItemContainer>
+                    <MenuItem className='hover'>Project</MenuItem>
+                    <MenuItem className='hover'>Project</MenuItem>
+                    <MenuItem className='hover'>Project</MenuItem>
+                    <MenuItem className='hover'>Project</MenuItem>
+                </MenuItemContainer>
+            </MenuCurtain>
+            <MenuCurtain className="curtain"/>
+        </MenuWrapper>
     );
 };
 

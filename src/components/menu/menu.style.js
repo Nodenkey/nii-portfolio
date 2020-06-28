@@ -13,3 +13,20 @@ export const MenuCurtain = styled.div`
   height: 100%;
   background: black;
 `;
+export const MenuItemContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+export const MenuItem = styled.h2`
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(100px);
+@media only screen and (min-width: 600px) {
+        font-size: 3rem;
+}
+`;
