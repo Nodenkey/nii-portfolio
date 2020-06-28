@@ -2,6 +2,7 @@ import React, {useEffect, useRef} from 'react';
 import {Cursor, HomeWrapper} from "./home.style";
 import Landing from "../../components/landing/landing.component";
 import NavBar from "../../components/navbar/navbar.component";
+import Languages from "../../components/languages/languages.component";
 
 const Home = () => {
     let cursor = useRef(null);
@@ -28,6 +29,7 @@ const Home = () => {
             <HomeWrapper>
                 <NavBar/>
                 <Landing/>
+                <Languages/>
             </HomeWrapper>
         </>
     );

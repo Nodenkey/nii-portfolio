@@ -11,6 +11,9 @@ const NavBar = () => {
         setOpen(!open);
     }
 
+    open ? document.querySelector("html").style.overflow = "hidden" :
+        document.querySelector("html").style.overflowY = "auto"
+
     const onEnter = node => {
         const items = node.children[1].children[0].children;
         gsap.from(node.children, {
@@ -20,7 +23,7 @@ const NavBar = () => {
             rotateY: 50,
             stagger: .2,
         })
-        gsap.to(items, {duration: .7, y: -100, opacity: 1, delay: .4, stagger:.2})
+        gsap.to(items, {duration: .7, y: -100, opacity: 1, delay: .4, stagger: .2})
     }
     const onExit = node => {
         const items = node.children[1].children[0].children;
@@ -32,8 +35,7 @@ const NavBar = () => {
             stagger: .2,
             delay: .7
         })
-        gsap.to(items, {duration: .7, y: 200, opacity: 0, stagger:.2})
-
+        gsap.to(items, {duration: .7, y: 200, opacity: 0, stagger: {each: .2, from: "end"}});
     }
     return (
         <>
@@ -48,23 +50,23 @@ const NavBar = () => {
                 </Hamburger>
             </NavBarWrapper>
             {
-                    <CSSTransition
-                        timeout={{
-                            appear: 0,
-                            enter: 0,
-                            exit: 1000,
-                        }}
-                        in={open}
-                        appear={true}
-                        enter={true}
-                        exit={true}
-                        unmountOnExit
-                        mountOnEnter
-                        onEntered={onEnter}
-                        onExit={onExit}
-                    >
-                        <Menu show={open}/>
-                    </CSSTransition>
+                <CSSTransition
+                    timeout={{
+                        appear: 0,
+                        enter: 0,
+                        exit: 1000,
+                    }}
+                    in={open}
+                    appear={true}
+                    enter={true}
+                    exit={true}
+                    unmountOnExit
+                    mountOnEnter
+                    onEntered={onEnter}
+                    onExit={onExit}
+                >
+                    <Menu show={open}/>
+                </CSSTransition>
             }
         </>
     );

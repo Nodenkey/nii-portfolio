@@ -11,7 +11,7 @@ const Landing = () => {
     return (
         <LandingWrapper>
             <Hello>Hello, I'm Nii Odenkey</Hello>
-            <SubHello>I am a self-taught front-end web developer. <br/> I am very much into UI/UX design, and I loooove
+            <SubHello>I am a self-taught front-end web developer. I am very much into UI/UX design, and I loooove
                 coding.</SubHello>
             <ImageContainer style={{backgroundImage: `url(${Nii})`}} ref={el => image = el}/>
         </LandingWrapper>

@@ -17,7 +17,7 @@ export const Hello = styled.h1`
 export const SubHello = styled.h2`
   color: ${subText};
   z-index: 1;
-  width: 90%;
+  max-width: 580px;
   @media only screen and (max-width: 600px){
   font-size: 1rem;
   }
