@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/css.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/figma-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/firebase-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/flask.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/html-5 (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/javascript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/photoshop-cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/python-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/react-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/languages/languages.style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Asset 3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing/landing.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <updated>1593205208859</updated>
       <workItem from="1593205210507" duration="11534000" />
       <workItem from="1593239911667" duration="20884000" />
-      <workItem from="1593333392538" duration="13120000" />
+      <workItem from="1593333392538" duration="23993000" />
     </task>
     <servers />
   </component>

@@ -8,10 +8,10 @@ const Languages = () => {
     useEffect(() => {
 
         gsap.to('.icon', {duration: 2,
-            y: -40,
+            y: -20,
             ease: Power1.easeInOut,
             stagger: {
-            repeat: -1,  amount: .4, yoyo: true,
+            repeat: -1,  amount: 1, yoyo: true,
             }})
     })
     return (

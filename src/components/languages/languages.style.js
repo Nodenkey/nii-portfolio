@@ -66,7 +66,7 @@ export const IconWrapper = styled.div`
   & svg, & img{
   width: 20px;
   height: 20px;
-  opacity: 0.5;
+  opacity: 0.3;
   @media only screen and (min-width: 768px){
   width: 50px;
   height: 50px;

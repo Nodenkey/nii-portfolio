@@ -1,11 +1,11 @@
 import styled from "styled-components";
+import {gold} from "../../utils/colors";
 
 export const MenuWrapper = styled.div`
-  position: absolute;
-  z-index: 99999;
+  position: fixed;
+  z-index: 3;
   width: 100%;
-  margin-top: 90px;
-  height: calc(100vh - 90px);
+  height: 100vh;
   display: flex;
 `;
 export const MenuCurtain = styled.div`
@@ -25,8 +25,36 @@ export const MenuItem = styled.h2`
     font-size: 1.5rem;
     margin-bottom: 20px;
     opacity: 0;
+     word-break: break-word;
     transform: translateY(100px);
+    transition: color, letter-spacing 200ms ease-in;
+    &:hover{
+    color: ${gold};
+    letter-spacing: 0.5rem;
+    cursor: default;
+    }
 @media only screen and (min-width: 600px) {
         font-size: 3rem;
 }
+`;
+export const Social = styled.div`
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  *{
+    font-size: 1rem;
+    color: white;
+    transition: all 200ms ease-in;
+    margin: 0 20px;
+    @media only screen and (min-width: 600px){
+    font-size: 2rem;
+    }
+  }
+  *:hover{
+  color: ${gold};
+  transform: scale(1.3);
+  }
 `;

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Hamburger, HamLine, NavBarWrapper, NavBrand} from "./navbar.style";
-import {Logo} from "../icons/icons.component";
 import Menu from "../menu/menu.component";
+import Logo from "../../assets/images/Asset 3.png";
 import {CSSTransition} from "react-transition-group";
 import {gsap, Power3} from "gsap";
 
@@ -14,6 +14,7 @@ const NavBar = () => {
     open ? document.querySelector("html").style.overflow = "hidden" :
         document.querySelector("html").style.overflowY = "auto"
 
+
     const onEnter = node => {
         const items = node.children[1].children[0].children;
         gsap.from(node.children, {
@@ -23,7 +24,7 @@ const NavBar = () => {
             rotateY: 50,
             stagger: .2,
         })
-        gsap.to(items, {duration: .7, y: -100, opacity: 1, delay: .4, stagger: .2})
+        gsap.to(items, {duration: .7, y: 0, opacity: 1, delay: .4, stagger: .2})
     }
     const onExit = node => {
         const items = node.children[1].children[0].children;
@@ -40,10 +41,8 @@ const NavBar = () => {
     return (
         <>
             <NavBarWrapper>
-                <NavBrand className='hover'>
-                    <Logo/>
-                </NavBrand>
-                <Hamburger onClick={HamFunction} className='hover'>
+                <NavBrand className='hover' src={Logo} alt="nii odenkey's logo"/>
+                <Hamburger onClick={HamFunction} className='hover' open={open}>
                     <HamLine/>
                     <HamLine/>
                     <HamLine/>
