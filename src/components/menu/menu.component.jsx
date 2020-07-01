@@ -16,14 +16,14 @@ const Menu = () => {
                 </MenuItemContainer>
             </MenuCurtain>
             <MenuCurtain className="curtain"/>
-            <Social>
-                <i className="fab fa-facebook-f hover"/>
-                <i className="fab fa-twitter hover"/>
-                <i className="fab fa-instagram hover"/>
-                <i className="fab fa-linkedin hover"/>
-                <i className="fab fa-medium-m hover"/>
-                <i className="fab fa-github hover"/>
-            </Social>
+                <Social>
+                    <i className="fab fa-facebook-f hover"/>
+                    <i className="fab fa-twitter hover"/>
+                    <i className="fab fa-instagram hover"/>
+                    <i className="fab fa-linkedin hover"/>
+                    <i className="fab fa-medium-m hover"/>
+                    <i className="fab fa-github hover"/>
+                </Social>
         </MenuWrapper>
     );
 };

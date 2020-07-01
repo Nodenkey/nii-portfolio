@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Asset 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/resume1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/resume2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/resume3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/resume/resume.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,10 @@
       <updated>1593205208859</updated>
       <workItem from="1593205210507" duration="11534000" />
       <workItem from="1593239911667" duration="20884000" />
-      <workItem from="1593333392538" duration="23993000" />
+      <workItem from="1593333392538" duration="24173000" />
+      <workItem from="1593420313741" duration="259000" />
+      <workItem from="1593501941067" duration="19426000" />
+      <workItem from="1593592111076" duration="2535000" />
     </task>
     <servers />
   </component>

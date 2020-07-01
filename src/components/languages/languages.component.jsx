@@ -25,7 +25,7 @@ const Languages = () => {
             <IconWrapper className='figma-icon icon'><img src={Figma} alt="figma icon"/></IconWrapper>
             <IconWrapper className='firebase-icon icon'><Firebase/></IconWrapper>
             <IconWrapper className='flask-icon icon'><Flask/></IconWrapper>
-            <LanguageHeader>So which language do I speak?</LanguageHeader>
+            <LanguageHeader>Which language do I speak?</LanguageHeader>
             <ExpertiseWrapper>
                 <Expertise>React js</Expertise>
                 <Expertise>Html</Expertise>
