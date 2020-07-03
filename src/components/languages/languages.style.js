@@ -92,6 +92,7 @@ export const LanguageHeader = styled.h2`
 `;
 export const ExpertiseContainer = styled.div`
 width: 80%;
+margin-left: 10%;
 div:last-child{
 margin-right: 0;
 }
