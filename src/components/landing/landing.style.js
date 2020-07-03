@@ -56,7 +56,7 @@ export const ImageContainer = styled.div`
   height: 100%;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(none 0%, black 60%);
+  background: linear-gradient(transparent 0%, black 60%);
   }
   @media only screen and (min-width: 600px){
   position: absolute;
