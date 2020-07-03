@@ -6,7 +6,7 @@ export const ProjectsWrapper = styled.section`
 width: 100%;
 background: black;
 padding-top: 100px;
-overflow-x: hidden;
+overflow: hidden;
 `;
 export const ProjectContainer = styled.div`
 width: 100%;
