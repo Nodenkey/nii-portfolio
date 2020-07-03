@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: white;
+    cursor: url("./assets/images/dot.png"), auto;
 }
 
 code {
@@ -28,6 +29,10 @@ html {
 
 a {
     text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: url("./assets/images/dot.png"), auto;
 }
 
 h1{

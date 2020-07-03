@@ -9,11 +9,11 @@ export const Cursor = styled.div`
   position: absolute;
   width: 40px;
   height: 40px;
-  border: 2px solid ${gold};
+  border: 1px solid ${gold};
   border-radius: 50%;
   pointer-events: none;
+  transform: scale(3);
   z-index: 9999999999999999999999999999;
-  //transition: 100ms ease-out;
   @media only screen and (min-width: 1200px){
   display: inline-block;
   }

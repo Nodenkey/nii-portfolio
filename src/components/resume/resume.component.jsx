@@ -20,7 +20,7 @@ const Resume = () => {
         tl.from(resume3, {
             scrollTrigger: {trigger: resume3, toggleActions: 'restart pause reverse pause',
                 start: 'top 90%', scrub: true}, duration: .7, delay: 10,
-            opacity: 0, transformOrigin: 'top', rotateX: -90,
+            opacity: 0, rotateX: -90, transformOrigin: 'top',
         });
     })
     return (

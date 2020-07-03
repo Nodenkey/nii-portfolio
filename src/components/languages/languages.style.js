@@ -31,12 +31,16 @@ export const IconWrapper = styled.div`
     }else if (props.className === 'flask-icon icon'){
         return '83%'
     }else if (props.className === 'photoshop-icon icon'){
-        return '20%'
+        return '15%'
     }else if (props.className === 'figma-icon icon'){
         return '70%'
     }
     else if (props.className === 'firebase-icon icon'){
         return '5%'
+    }else if (props.className === 'redux-icon icon'){
+        return '35%'
+    }else if (props.className === 'node-icon icon'){
+        return '60%'
     }
 }
 }; 
@@ -52,7 +56,7 @@ export const IconWrapper = styled.div`
     }else if (props.className === 'flask-icon icon'){
         return '70%'
     }else if (props.className === 'photoshop-icon icon'){
-        return '85%'
+        return '80%'
     }else if (props.className === 'figma-icon icon'){
         return '90%'
     }else if (props.className === 'css-icon icon'){
@@ -60,13 +64,19 @@ export const IconWrapper = styled.div`
     }
     else if (props.className === 'react-icon icon'){
         return '5%'
+    }else if (props.className === 'redux-icon icon'){
+        return '45%'
+    }else if (props.className === 'node-icon icon'){
+        return '70%'
+    }else if (props.className === 'webstorm-icon icon'){
+        return '85%'
     }
 }
 };
   & svg, & img{
   width: 20px;
   height: 20px;
-  opacity: 0.3;
+  opacity: 0.25;
   @media only screen and (min-width: 768px){
   width: 50px;
   height: 50px;
@@ -81,17 +91,23 @@ export const LanguageHeader = styled.h2`
     font-size: 3rem;
   }
 `;
+export const ExpertiseContainer = styled.div`
+display: flex;
+width: 80%;
+justify-content: center;
+div:last-child{
+margin-right: 0;
+}
+`;
 export const ExpertiseWrapper = styled.div`
-  width: 80%;
-  display: flex;
+  width: 20%;
+  margin-right: 5%;
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  & h2:last-child{
-  margin-right: 0;
-  }
+  align-items: flex-start;
 `;
 export const Expertise = styled.h2`
-margin-right: 20%;
 margin-bottom: 30px;
 color: ${subText};
 `;

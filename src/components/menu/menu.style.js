@@ -44,7 +44,7 @@ export const Social = styled.div`
   bottom: 50px;
   display: flex;
   justify-content: center;
-  *{
+  i{
     font-size: 1rem;
     color: white;
     transition: all 200ms ease-in;
@@ -53,7 +53,7 @@ export const Social = styled.div`
     font-size: 2rem;
     }
   }
-  *:hover{
+  i:hover{
   color: ${gold};
   transform: scale(1.3);
   }

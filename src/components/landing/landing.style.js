@@ -19,6 +19,7 @@ export const TextWrapper = styled.div`
   margin-top: 120px;
   @media only screen and (min-width: 1200px){
   margin-top: 0;
+  max-width: 1000px;
   }
 `;
 export const Hello = styled.h1`
@@ -36,6 +37,7 @@ position: relative;
 width: 80%;
 height: 300px;
 align-items: center;
+z-index: 1;
 justify-content: center;
 @media only screen and (min-width: 1200px){
 width: 100%;

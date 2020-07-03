@@ -1,16 +1,17 @@
 import React from 'react';
 import {
-    FooterForm,
+    Copyright,
     FooterHeader,
-    FooterMainContainer,
+    FooterMainContainer, FooterRight,
     FooterSocial,
     FooterSub,
     FooterText,
-    FooterWrapper
+    FooterWrapper, MailBox, MailText
 } from "./footer.style";
 import {Social} from "../menu/menu.style";
 
 const Footer = () => {
+
     return (
         <FooterWrapper>
             <FooterMainContainer>
@@ -20,35 +21,31 @@ const Footer = () => {
                         always
                         available for a dialogue.</FooterSub>
                 </FooterText>
-                <FooterForm
-                    action="https://formspree.io/xbjzaewd"
-                    method="POST"
-                >
-                    <input type="hidden" name="_next" value="//path//" />
-                    <input type="text" name="_gotcha" style={{display:"none"}}/>
-                    <label>
-                        Email:
-                        <input type="email" name="_replyto" required/>
-                    </label>
-                    <label>
-                        Message:
-                        <textarea name="message" rows="10" cols="50" required/>
-                    </label>
-                    <button type="submit" className="hover">Send</button>
-                </FooterForm>
+                <FooterRight>
+                    <MailText>Mail me</MailText>
+                    <a href="mailto:abbeyniiodenkey@gmail.com" target='_blank' rel="noopener noreferrer"><MailBox
+                        className='hover'>abbeyniiodenkey@gmail.com</MailBox></a>
+                    <Copyright>&copy; Nii Odenkey Abbey</Copyright>
+                </FooterRight>
             </FooterMainContainer>
             <FooterSocial>
                 <Social>
-                    <i className="fab fa-facebook-f hover"/>
-                    <i className="fab fa-twitter hover"/>
-                    <i className="fab fa-instagram hover"/>
-                    <i className="fab fa-linkedin hover"/>
-                    <i className="fab fa-medium-m hover"/>
-                    <i className="fab fa-github hover"/>
+                    <a href="https://web.facebook.com/nii.o.abbey" rel='noopener noreferrer' target='_blank'><i
+                        className="fab fa-facebook-f hover"/></a>
+                    <a href="https://twitter.com/nii_odenkey_" target='_blank' rel='noopener noreferrer'>
+                        <i className="fab fa-twitter hover"/></a>
+                    <a href="https://www.instagram.com/n_odenkey/" target='_blank' rel='noopener noreferrer'><i
+                        className="fab fa-instagram hover"/></a>
+                    <a href="https://www.linkedin.com/in/samuel-abbey-618957168/" target='_blank'
+                       rel='noopener noreferrer'><i
+                        className="fab fa-linkedin hover"/></a>
+                    {/*<i className="fab fa-medium-m hover"/>*/}
+                    <a href="https://github.com/Nodenkey" target='_blank'
+                       rel='noopener noreferrer'><i className="fab fa-github hover"/></a>
                 </Social>
             </FooterSocial>
         </FooterWrapper>
-    );
+);
 };
 
 export default Footer;

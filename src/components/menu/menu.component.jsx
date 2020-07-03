@@ -16,16 +16,21 @@ const Menu = () => {
                 </MenuItemContainer>
             </MenuCurtain>
             <MenuCurtain className="curtain"/>
-                <Social>
-                    <i className="fab fa-facebook-f hover"/>
-                    <i className="fab fa-twitter hover"/>
-                    <i className="fab fa-instagram hover"/>
-                    <i className="fab fa-linkedin hover"/>
-                    <i className="fab fa-medium-m hover"/>
-                    <i className="fab fa-github hover"/>
-                </Social>
+            <Social>
+                <a href="https://web.facebook.com/nii.o.abbey" target='_blank' rel='noopener noreferrer'><i
+                    className="fab fa-facebook-f hover"/></a>
+                <a href="https://twitter.com/nii_odenkey_" target='_blank' rel='noopener noreferrer'><i
+                    className="fab fa-twitter hover"/></a>
+                <a href="https://www.instagram.com/n_odenkey/" target='_blank' rel='noopener noreferrer'><i
+                    className="fab fa-instagram hover"/></a>
+                <a href="https://www.linkedin.com/in/samuel-abbey-618957168/" target='_blank' rel='noopener noreferrer'><i
+                    className="fab fa-linkedin hover"/></a>
+                    {/*<i className="fab fa-medium-m hover"/>*/}
+                <a href="https://github.com/Nodenkey" target='_blank'
+                   rel='noopener noreferrer'><i className="fab fa-github hover"/></a>
+            </Social>
         </MenuWrapper>
-    );
+);
 };
 
 export default Menu;
