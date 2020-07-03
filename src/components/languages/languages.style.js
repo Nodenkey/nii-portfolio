@@ -91,10 +91,13 @@ export const LanguageHeader = styled.h2`
   }
 `;
 export const ExpertiseContainer = styled.div`
-width: 80%;
-margin-left: 10%;
+width: 100%;
+padding: 0 7%;
 div:last-child{
 margin-right: 0;
+}
+@media only screen and (min-width: 1200px){
+padding: 0 20%;
 }
 `;
 export const ExpertiseWrapper = styled.div`
