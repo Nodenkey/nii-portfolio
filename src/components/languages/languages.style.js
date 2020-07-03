@@ -84,7 +84,6 @@ export const IconWrapper = styled.div`
   }
 `;
 export const LanguageHeader = styled.h2`
-  z-index: 2;
   font-size: 2rem;
   margin-bottom: 50px;
   @media only screen and (min-width: 600px){
@@ -92,15 +91,14 @@ export const LanguageHeader = styled.h2`
   }
 `;
 export const ExpertiseContainer = styled.div`
-display: flex;
 width: 80%;
-justify-content: center;
+margin-left: 10%;
 div:last-child{
 margin-right: 0;
 }
 `;
 export const ExpertiseWrapper = styled.div`
-  width: 20%;
+  width: 30%;
   margin-right: 5%;
   display: inline-flex;
   flex-direction: column;
