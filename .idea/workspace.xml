@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/design-portfolio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/edanra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/frlogistics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/wevops.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/dot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/node.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/redux.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/webstorm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about/about.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about/about.style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/resume.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.style.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +51,7 @@
       <workItem from="1593420313741" duration="259000" />
       <workItem from="1593501941067" duration="19426000" />
       <workItem from="1593592111076" duration="2535000" />
-      <workItem from="1593776573251" duration="17638000" />
+      <workItem from="1593776573251" duration="17978000" />
     </task>
     <servers />
   </component>

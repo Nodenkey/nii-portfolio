@@ -5,7 +5,7 @@ import {gold} from "../../utils/colors";
 export const ProjectsWrapper = styled.section`
 width: 100%;
 background: black;
-padding: 100px 0;
+padding-top: 100px;
 `;
 export const ProjectContainer = styled.div`
 width: 100%;
