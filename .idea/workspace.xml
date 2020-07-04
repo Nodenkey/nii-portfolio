@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error/error.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error/error.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/loader.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/loader.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +55,7 @@
       <workItem from="1593501941067" duration="19426000" />
       <workItem from="1593592111076" duration="2535000" />
       <workItem from="1593776573251" duration="27509000" />
-      <workItem from="1593851140835" duration="9726000" />
+      <workItem from="1593851140835" duration="13316000" />
     </task>
     <servers />
   </component>

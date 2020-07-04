@@ -13,7 +13,7 @@ const Resume = () => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.to(resumeImage, {scrollTrigger : {trigger: resumeImage, start: 'top center'},
             duration : 1.5, scale : .7, filter : 'blur(2px)', delay: .5, x : '-40%' });
-        gsap.from(downloader, {scrollTrigger: {trigger : downloader, start: 'top bottom'},
+        gsap.from(downloader, {scrollTrigger: {trigger : downloader, start: 'top center'},
             duration : 1, opacity : 0, delay : 1.5, x : 200
         })
     }, [])
