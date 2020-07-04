@@ -64,7 +64,7 @@ const NavBar = () => {
                     onEntered={onEnter}
                     onExit={onExit}
                 >
-                    <Menu show={open}/>
+                    <Menu show={open} toggleClose={HamFunction}/>
                 </CSSTransition>
             }
         </>

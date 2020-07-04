@@ -17,20 +17,24 @@ const Home = () => {
     useEffect(() => {
         tl.to(cursor, {scale: 1, duration: .3});
         window.addEventListener('mousemove', (e) => {
-            cursor.style.top = (e.pageY - 10) + 'px';
-            cursor.style.left = (e.pageX -10 ) + 'px';
+            if (cursor !== null){
+                cursor.style.top = (e.pageY - 10) + 'px';
+                cursor.style.left = (e.pageX -10 ) + 'px';
+            }
         });
        window.addEventListener('mousemove', (e) => {
-           const hover = document.querySelectorAll('.hover');
-           cursor.classList.add('reverse-cursor');
-           hover.forEach((el) => {
-               el.addEventListener('mouseover', () => {
-                   tl.reverse()
+           if (cursor !== null) {
+               const hover = document.querySelectorAll('.hover');
+               cursor.classList.add('reverse-cursor');
+               hover.forEach((el) => {
+                   el.addEventListener('mouseover', () => {
+                       tl.reverse()
+                   })
+                   el.addEventListener('mouseout', () => {
+                       tl.play();
+                   })
                })
-               el.addEventListener('mouseout', () => {
-                   tl.play();
-               })
-           })
+           }
        })
     })
 
@@ -42,9 +46,9 @@ const Home = () => {
                 <Landing/>
                 <About/>
                 <Languages/>
-                <Projects/>
-                <Resume/>
-                <Footer/>
+                <Projects id='projects'/>
+                <Resume id='cv'/>
+                <Footer id='contact'/>
             </HomeWrapper>
         </>
     );

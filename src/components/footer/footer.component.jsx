@@ -25,7 +25,7 @@ const Footer = () => {
                     <MailText>Mail me</MailText>
                     <a href="mailto:abbeyniiodenkey@gmail.com" target='_blank' rel="noopener noreferrer"><MailBox
                         className='hover'>abbeyniiodenkey@gmail.com</MailBox></a>
-                    <Copyright>&copy; Nii Odenkey Abbey</Copyright>
+                    <Copyright>&copy; 2020 Nii Odenkey Abbey</Copyright>
                 </FooterRight>
             </FooterMainContainer>
             <FooterSocial>

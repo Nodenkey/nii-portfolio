@@ -28,7 +28,7 @@ const Projects = () => {
     gsap.registerPlugin(ScrollTrigger);
     const ImageAnimation = (el) => {
         gsap.from(el, {
-            scrollTrigger: {trigger: el, start: 'top bottom'}, y: 200,
+            scrollTrigger: {trigger: el, start: 'top bottom'}, y: 300,
             opacity: 0, duration: 3, ease: "power3.out"
         });
     }
