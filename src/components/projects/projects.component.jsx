@@ -25,26 +25,27 @@ const Projects = () => {
     let portfolioTitle = useRef(null);
     let frTitle = useRef(null);
 
-    gsap.registerPlugin(ScrollTrigger);
+
     const ImageAnimation = (el) => {
         gsap.from(el, {
-            scrollTrigger: {trigger: el, start: 'top bottom'}, y: 300,
+            scrollTrigger: {trigger: el, start: 'top center'}, y: 300,
             opacity: 0, duration: 3, ease: "power3.out"
         });
     }
-    const TitleAnimation = el => {
+    const TitleAnimation = (el, trigger) => {
         gsap.from(el, {
-            scrollTrigger: {trigger: el, start: 'top bottom'}, x: 200,
+            scrollTrigger: {trigger: trigger,  start: 'top bottom'}, x: 200,
             opacity: 0, duration: 2, ease: "back.out(1.7)", delay: 1
         });
     }
-    const TitleAnimationRev = el => {
+    const TitleAnimationRev = (el, trigger) => {
         gsap.from(el, {
-            scrollTrigger: {trigger: el, start: 'top bottom'}, x: -200,
+            scrollTrigger: {trigger: trigger,  start: 'top bottom'}, x: -200,
             opacity: 0, duration: 2, ease: "back.out(1.7)", delay: 1
         });
     }
     useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
         gsap.from(line, {
             scrollTrigger: {
                 trigger: line,
@@ -53,16 +54,16 @@ const Projects = () => {
             }, scale: 0, transformOrigin: 'left', duration: 1
         })
         ImageAnimation(wevops);
-        TitleAnimation(wevopsTitle);
+        TitleAnimation(wevopsTitle, wevops);
         ImageAnimation(edanra);
-        TitleAnimationRev(edanraTitle);
+        TitleAnimationRev(edanraTitle, edanra);
         ImageAnimation(portfolio);
-        TitleAnimation(frTitle);
+        TitleAnimation(frTitle, fr);
         ImageAnimation(fr);
-        TitleAnimationRev(portfolioTitle);
-    })
+        TitleAnimationRev(portfolioTitle, portfolio);
+    }, [])
     return (
-        <ProjectsWrapper>
+        <ProjectsWrapper id='projects'>
             <ProjectHeader>Selected Projects
                 <Line ref={el => line = el}/>
             </ProjectHeader>

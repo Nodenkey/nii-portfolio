@@ -34,7 +34,7 @@ const Languages = () => {
                 repeat: -1, amount: 1, yoyo: true,
             }
         })
-    })
+    }, [])
     return (
         <LanguageWrapper className='lang-icons'>
             <IconWrapper className='html-icon icon'><Html/></IconWrapper>

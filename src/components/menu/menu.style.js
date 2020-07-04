@@ -29,9 +29,11 @@ export const MenuItem = styled.h2`
     transform: translateY(100px);
     transition: color, letter-spacing 200ms ease-in;
     &:hover{
-    color: ${gold};
     letter-spacing: 0.5rem;
     cursor: default;
+    }
+    a:hover{
+        color: ${gold};
     }
 @media only screen and (min-width: 600px) {
         font-size: 3rem;

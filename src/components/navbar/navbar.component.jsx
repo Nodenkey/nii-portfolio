@@ -4,6 +4,8 @@ import Menu from "../menu/menu.component";
 import Logo from "../../assets/images/Asset 3.png";
 import {CSSTransition} from "react-transition-group";
 import {gsap, Power3} from "gsap";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
@@ -41,7 +43,7 @@ const NavBar = () => {
     return (
         <>
             <NavBarWrapper>
-                <NavBrand className='hover' src={Logo} alt="nii odenkey's logo"/>
+                <Link to="/#home"><NavBrand className='hover' src={Logo} alt="nii odenkey's logo"/></Link>
                 <Hamburger onClick={HamFunction} className='hover' open={open}>
                     <HamLine/>
                     <HamLine/>

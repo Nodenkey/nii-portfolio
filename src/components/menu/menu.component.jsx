@@ -11,10 +11,10 @@ const Menu = ({toggleClose}) => {
             <MenuCurtain className="curtain"/>
             <MenuCurtain className="curtain">
                 <MenuItemContainer>
-                    <MenuItem className='hover' onClick={toggleClose}><Link to="/#">Home</Link></MenuItem>
+                    <MenuItem className='hover' onClick={toggleClose}><Link to="/#home">Home</Link></MenuItem>
                     <MenuItem className='hover' onClick={toggleClose}><a href='#projects'>Projects</a></MenuItem>
-                    <MenuItem className='hover' onClick={toggleClose}>My CV</MenuItem>
-                    <MenuItem className='hover' onClick={toggleClose}>Contact me</MenuItem>
+                    <MenuItem className='hover' onClick={toggleClose}><a href='#cv'>My CV</a></MenuItem>
+                    <MenuItem className='hover' onClick={toggleClose}><a href='#contact'>Contact me</a></MenuItem>
                 </MenuItemContainer>
             </MenuCurtain>
             <MenuCurtain className="curtain"/>

@@ -4,7 +4,7 @@ import {subText} from "../../utils/colors";
 export const LandingWrapper = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;

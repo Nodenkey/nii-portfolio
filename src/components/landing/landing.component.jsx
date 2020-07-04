@@ -9,9 +9,9 @@ const Landing = () => {
     useEffect(() => {
         gsap.from(image, {duration: 3, y: 300, opacity: 0, scale: 0.5, ease: Power3.easeInOut})
         gsap.from(name, {duration: 3, opacity: 0,  ease: Power3.easeInOut})
-    })
+    }, [])
     return (
-        <LandingWrapper>
+        <LandingWrapper id='home'>
             <TextWrapper>
                 <Hello>Hello,
                     <span ref={el => name = el}> I'm Nii Odenkey</span></Hello>

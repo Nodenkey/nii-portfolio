@@ -13,7 +13,7 @@ import {Social} from "../menu/menu.style";
 const Footer = () => {
 
     return (
-        <FooterWrapper>
+        <FooterWrapper id='contact'>
             <FooterMainContainer>
                 <FooterText>
                     <FooterHeader>Reach out</FooterHeader>
