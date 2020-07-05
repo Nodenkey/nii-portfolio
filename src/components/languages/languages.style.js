@@ -97,7 +97,7 @@ div:last-child{
 margin-right: 0;
 }
 @media only screen and (min-width: 1200px){
-padding: 0 20%;
+padding: 0 25%;
 }
 `;
 export const ExpertiseWrapper = styled.div`
