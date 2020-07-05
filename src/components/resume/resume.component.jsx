@@ -11,7 +11,7 @@ const Resume = () => {
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
-        gsap.timeline({scrollTrigger: {trigger: resumeImage, start: 'top center'}})
+        gsap.timeline({scrollTrigger: {trigger: resumeImage, start: 'top 70%'}})
             .to(resumeImage, {
                 duration: 1.5, scale: .7, filter: 'blur(2px)', delay: .5, x: '-40%'
             })

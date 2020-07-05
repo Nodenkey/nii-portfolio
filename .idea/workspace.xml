@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.167fe9b089148305b72d1caa16638d23.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.ea38277b.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.ea38277b.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/0.4eaf13ed.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/0.4eaf13ed.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/4.0fe4af39.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/4.0fe4af39.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/6.7798c37b.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/6.7798c37b.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.2b101e4e.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.2b101e4e.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.459befd2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.459befd2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.af2d98bcaf0d035c8e8e9f19f26897ac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.2f6503e9.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.2f6503e9.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.35302782.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.35302782.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.4ac0d178f547b5855975aa48d0bfbe9a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.167fe9b089148305b72d1caa16638d23.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.f7e16e17.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.f7e16e17.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/0.bcfbd690.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/0.bcfbd690.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.3aa1e1ac.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.3aa1e1ac.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/6.e816e809.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/6.e816e809.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.37f19e68.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.37f19e68.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.a55249c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.a55249c5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/languages/languages.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/languages/languages.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.0fe4af39.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.0fe4af39.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.459befd2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.459befd2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +67,7 @@
       <workItem from="1593501941067" duration="19426000" />
       <workItem from="1593592111076" duration="2535000" />
       <workItem from="1593776573251" duration="27509000" />
-      <workItem from="1593851140835" duration="31758000" />
+      <workItem from="1593851140835" duration="32169000" />
     </task>
     <servers />
   </component>

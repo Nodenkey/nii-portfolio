@@ -48,7 +48,7 @@ const Projects = () => {
                 opacity: 0, duration: 2, ease: "back.out(1.7)",
             }, '=-2')
             .from(connect, {scaleY: 0, duration: 1, ease: 'power3.out', transformOrigin: 'top left'}, '=-1')
-            .from(story, {opacity : 0, duration: .5, ease: 'power3.out'})
+            .from(story, {opacity: 0, duration: .5, ease: 'power3.out'})
     }
     const ImageAnimation2 = (el, title, connect, story) => {
         gsap.timeline({
@@ -61,8 +61,8 @@ const Projects = () => {
                 x: -200,
                 opacity: 0, duration: 2, ease: "back.out(1.7)",
             }, '=-2')
-            .from(connect, {scaleY: 0, duration: 1, ease: 'power3.out', transformOrigin : 'top right' }, '=-1')
-            .from(story, {opacity : 0, duration: 1, ease: 'power3.out'})
+            .from(connect, {scaleY: 0, duration: 1, ease: 'power3.out', transformOrigin: 'top right'}, '=-1')
+            .from(story, {opacity: 0, duration: 1, ease: 'power3.out'})
     }
 
 
@@ -102,8 +102,9 @@ const Projects = () => {
                 <ProjectNumber>no.1</ProjectNumber>
                 <ProjectDescription>
                     <Connector ref={el => connectWevops = el}><ConnectLine/></Connector>
-                    <p ref={el => storyWevops = el}>The website was developed for a startup that specialises in UI/UX design and web development. It was
-                    created using React js, styled components and gsap for animations.</p>
+                    <p ref={el => storyWevops = el}>The website was developed for a startup that specialises in UI/UX
+                        design and web development. It was
+                        created using React js, styled components and gsap for animations.</p>
                 </ProjectDescription>
             </ProjectContainer>
             <ProjectContainer>
@@ -123,9 +124,11 @@ const Projects = () => {
                 <ProjectNumber2>no.2</ProjectNumber2>
                 <ProjectDescription2>
                     <Connector2 ref={el => connectEdanra = el}><ConnectLine2/></Connector2>
-                    <p ref={el => storyEdanra = el}>This website was developed for Edanra, a startup that provides a platform to link house owners to
-                    those in need of housing especially National service personnel. It was designed using Adobe XD, and
-                    developed using React js, css, redux and redux sagas. It's backend was also hosted on firebase.</p>
+                    <p ref={el => storyEdanra = el}>This website was developed for Edanra, a startup that provides a
+                        platform to link house owners to
+                        those in need of housing especially National service personnel. It was designed using Adobe XD,
+                        and
+                        developed with React js, css, redux and redux sagas. Its backend was hosted on firebase.</p>
                 </ProjectDescription2>
             </ProjectContainer>
             <ProjectContainer>
@@ -145,9 +148,9 @@ const Projects = () => {
                 <ProjectNumber>no.3</ProjectNumber>
                 <ProjectDescription>
                     <Connector ref={el => connectFr = el}><ConnectLine/></Connector>
-                    <p ref={el => storyFr = el}>This website was developed for FrLogistics a logistics moving and warehousing company in Ghana. It
-                    was website was designed webflow and developed with HTML, CSS and javascript. The backend was
-                    however developed using Django.</p>
+                    <p ref={el => storyFr = el}>This website was developed for FrLogistics, a logistics moving and
+                        warehousing company in Ghana. It was designed with webflow and developed with HTML, CSS and
+                        javascript. The backend was developed using Django.</p>
                 </ProjectDescription>
             </ProjectContainer>
             <ProjectContainer>
@@ -168,8 +171,9 @@ const Projects = () => {
                 <ProjectNumber2>no.4</ProjectNumber2>
                 <ProjectDescription2>
                     <Connector2 ref={el => connectDesign = el}><ConnectLine2/></Connector2>
-                    <p ref={el => storyDesign = el}>Design portfolio is being developed for a design company involved graphic design and
-                    animations. It is being developed with React js and sass.</p></ProjectDescription2>
+                    <p ref={el => storyDesign = el}>Design portfolio is being developed for a design company involved in
+                        graphic design and
+                        animations. It is being developed with React js and sass.</p></ProjectDescription2>
             </ProjectContainer>
         </ProjectsWrapper>
     );
