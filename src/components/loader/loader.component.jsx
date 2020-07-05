@@ -7,11 +7,11 @@ const Loader = () => {
     let middleBar = useRef(null);
     let rightBar = useRef(null);
     useEffect(() => {
-        gsap.timeline({repeat : -1, repeatDelay: .5}).to(leftBar, {scaleY : 1, transformOrigin : 'bottom', duration : .5,
+        gsap.timeline({repeat : -1, repeatDelay: .4}).to(leftBar, {scaleY : 1, transformOrigin : 'bottom', duration : .4,
             ease : 'power3.out', opacity : 1,})
-            .to(middleBar, {scaleY : 1, transformOrigin : 'top', duration : .5, ease : 'power3.out',
+            .to(middleBar, {scaleY : 1, transformOrigin : 'top', duration : .4, ease : 'power3.out',
                 rotateZ : -25, marginLeft : -40, y: 10, opacity : 1})
-            .to(rightBar, {scaleY : 1, transformOrigin : 'bottom', duration : .5,
+            .to(rightBar, {scaleY : 1, transformOrigin : 'bottom', duration : .4,
                 ease : 'power3.out', marginLeft : 35, opacity : 1,})
     })
     return (

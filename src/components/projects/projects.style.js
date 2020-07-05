@@ -11,8 +11,13 @@ overflow: hidden;
 export const ProjectContainer = styled.div`
 width: 100%;
 display: flex;
-padding: 100px 5%;
+flex-direction: column;
+padding: 50px 5%;
 position: relative;
+@media only screen and (min-width: 1200px){
+flex-direction: row;
+padding: 100px 5%;
+}
 `;
 export const ProjectHeader = styled(LanguageHeader)`
 display: inline;
@@ -42,9 +47,13 @@ export const ProjectLabel2 = styled(ProjectLabel)`
 right: auto;
 left: 0;
 `;
+export const ImageUltimate = styled.div`
+position: relative;
+width: 55vw;
+`;
 export const ImageContainer = styled.div`
 position: relative;
-width: 60%;
+width: 100%;
 height: auto;
 overflow: hidden;
 &:hover img{
@@ -92,8 +101,8 @@ i{
   transform: scaleX(-1);
 }
 `;
-export const ImageContainer2 = styled(ImageContainer)`
-margin-left: 40%;
+export const ImageUltimate2 = styled(ImageUltimate)`
+margin-left: 35vw;
 `;
 export const ProjectImage = styled.img`
 object-fit: contain;
@@ -103,8 +112,9 @@ transition: 1s ease-out;
 export const ProjectName = styled.h2`
 font-size: 1.5rem;
 position: absolute;
+white-space: nowrap;
 z-index: 2;
-left: 50%;
+left: 80%;
 top: 45%;
 @media only screen and (min-width: 1200px){
 font-size: 4rem;
@@ -112,12 +122,12 @@ font-size: 4rem;
 `;
 export const ProjectName2 = styled(ProjectName)`
 left: auto;
-right: 50%;
+right: 80%;
 `;
 export const ProjectNumber = styled.h2`
 position: absolute;
 z-index: 2;
-right: 10%;
+right: 5%;
 top: 30%;
 color: ${gold};
 font-weight: lighter;
@@ -126,4 +136,38 @@ opacity: .3;
 export const ProjectNumber2 = styled(ProjectNumber)`
 left: 10%;
 right: 100%;
+`;
+export const ProjectDescription = styled.div`
+display: block;
+text-align: left;
+right: 5%;
+margin-top: 10px;
+bottom: 50px;
+font-size: 0.8rem;
+max-width: 450px;
+@media only screen and (min-width: 1200px){
+position: absolute;
+width: 30%;
+margin-top: 0;
+font-size: 1rem;
+bottom: 100px;
+}
+`;
+export const ProjectDescription2 = styled(ProjectDescription)`
+right: auto;
+left: 5%;
+`;
+export const Connector = styled.div`
+display: none;
+margin-left: -4.5vw;
+width: calc(30vw + 6vw);
+svg{
+height: 50px;
+}
+@media only screen and (min-width: 1200px){
+display: inline-block;
+}
+`;
+export const Connector2 = styled(Connector)`
+margin-left: 26vw;
 `;

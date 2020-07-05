@@ -2,11 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.4ac0d178f547b5855975aa48d0bfbe9a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.f7e16e17.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.f7e16e17.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/0.bcfbd690.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/0.bcfbd690.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.2be09878.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.2be09878.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.2be09878.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.3aa1e1ac.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.3aa1e1ac.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/5.90eb0160.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/5.90eb0160.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/5.90eb0160.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/6.e816e809.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/6.e816e809.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.37f19e68.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.37f19e68.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.a55249c5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.a55249c5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/Asset 3.4625175d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/design-portfolio.6c1870e7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/edanra.66ffd161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/figma-1.80505242.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/frlogistics.88a1ead8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/nii.bc292b4d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/resume.1d45e3d1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/resume.b7a1e1c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/wevops.5364d832.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/line2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/icons.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/loader/loader.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/loader.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/loader.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resume/resume.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/resume.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +108,7 @@
       <workItem from="1593501941067" duration="19426000" />
       <workItem from="1593592111076" duration="2535000" />
       <workItem from="1593776573251" duration="27509000" />
-      <workItem from="1593851140835" duration="13316000" />
+      <workItem from="1593851140835" duration="30972000" />
     </task>
     <servers />
   </component>
@@ -94,9 +147,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1593292227514" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1593349222877">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1593967587795">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1593349222877" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1593967587795" />
   </component>
 </project>

@@ -30,6 +30,7 @@ html {
 a {
     text-decoration: none;
     color: white;
+    padding: 0;
 }
 a:hover{
     cursor: url("./assets/images/dot.png"), auto;

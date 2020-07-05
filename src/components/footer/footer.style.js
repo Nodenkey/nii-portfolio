@@ -4,7 +4,7 @@ import {gold, subText} from "../../utils/colors";
 export const FooterWrapper = styled.section`
 height: 100vh;
 width: 100%;
-padding: 80px 5%;
+padding: 0 5% 80px 5%;
 background-color: black;
 display: flex;
 flex-direction: column;

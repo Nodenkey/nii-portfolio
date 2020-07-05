@@ -4,7 +4,7 @@ import {gold} from "../../utils/colors";
 export const ResumeWrapper = styled.section`
 width: 100%;
 background-color: black;
-padding: 100px 5%;
+padding: 100px 5% 0 5%;
 position: relative;
 overflow: hidden;
 `;

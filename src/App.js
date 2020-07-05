@@ -11,10 +11,10 @@ const Error = lazy(() => import("./components/error/error.component"));
 
 function App() {
     let cursor = useRef(null);
-    const tl = gsap.timeline();
 
 
     useEffect(() => {
+        const tl = gsap.timeline();
         tl.to(cursor, {scale: 1, duration: .3});
         window.addEventListener('mousemove', (e) => {
             if (cursor !== null){
@@ -31,6 +31,9 @@ function App() {
                         tl.reverse()
                     })
                     el.addEventListener('mouseout', () => {
+                        tl.play();
+                    })
+                    el.addEventListener('click', () => {
                         tl.play();
                     })
                 })

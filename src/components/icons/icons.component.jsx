@@ -309,7 +309,7 @@ export const ErrorImage = () => {
                                 gradientTransform="translate(14.67 -46.24) rotate(6.92)"
                                 xlinkHref="#linear-gradient-6"/>
             </defs>
-            <g style={{isolation:"isolate"}}>
+            <g style={{isolation: "isolate"}}>
                 <g id="BACKGROUND">
                     <rect width="500" height="500"/>
                 </g>
@@ -507,7 +507,7 @@ export const ErrorImage = () => {
                     <path
                         d="M340.49,164.82a56.94,56.94,0,0,1,3.74-6.22,16.49,16.49,0,0,0,2.7-6.68,71.1,71.1,0,0,1-18.3,13.5C332.62,165.17,336.5,165.08,340.49,164.82Z"
                         transform="translate(0 0)" opacity="0.6" fill="url(#linear-gradient-6)"
-                        style={{mixBlendMode:"multiply"}}/>
+                        style={{mixBlendMode: "multiply"}}/>
                     <g id="boy-torso">
                         <g id="boy-body">
                             <g id="torso">
@@ -579,11 +579,36 @@ export const ErrorImage = () => {
                             <path
                                 d="M360.52,123.81a23.73,23.73,0,0,1-6,2.41c-1.94.83-4.16,1.64-5.92,1.41l-.33.08a120.87,120.87,0,0,1,14.43,8.41s.8-2.11,1.9-4.78c.76-4.2,1.44-8.41,2.07-12.64A24.25,24.25,0,0,1,360.52,123.81Z"
                                 transform="translate(0 0)" opacity="0.6" fill="url(#linear-gradient-8)"
-                                style={{mixBlendMode:"multiply"}}/>
+                                style={{mixBlendMode: "multiply"}}/>
                         </g>
                     </g>
                 </g>
             </g>
+        </svg>
+    )
+}
+
+export const ConnectLine = () => {
+    return (
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555.42 245.67">
+            <rect x="8.67" y="8.26" width="537.1" height="4.84" fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <rect x="494.06" y="497.91" width="226.73" height="4.84" transform="translate(1045.08 -485.81) rotate(90)"
+                  fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <circle cx="10.68" cy="10.68" r="10.18" fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <circle cx="544.74" cy="234.99" r="10.18" fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+        </svg>
+    )
+}
+export const ConnectLine2 = () => {
+    return (
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555.42 245.67">
+            <title>line2</title>
+            <rect x="231.95" y="385.42" width="537.1" height="4.84" transform="translate(778.7 398.52) rotate(-180)"
+                  fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <rect x="119.6" y="496.37" width="226.73" height="4.84" transform="translate(509.47 -111.34) rotate(90)"
+                  fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <circle cx="544.74" cy="10.68" r="10.18" fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
+            <circle cx="10.68" cy="234.99" r="10.18" fill="#d4af37" stroke="#d4af37" strokeMiterlimit="10"/>
         </svg>
     )
 }
