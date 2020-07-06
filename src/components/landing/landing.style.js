@@ -9,7 +9,11 @@ export const LandingWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   padding: 0 10%;
+  *{
+  border: none;
+  }
   @media only screen and (min-width: 1200px){
   flex-direction: row;
   }

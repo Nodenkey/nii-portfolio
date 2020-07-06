@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28807d7-4b80-4ddf-ab9c-1e3dca9f2506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.2da559e4426024eb2d7987be5678189c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/4.e1bc1dac.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/4.e1bc1dac.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.110c7ee6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.110c7ee6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.50fc29b58f0faf16cd9a05de28c49fe3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.e7017e6f.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/4.e7017e6f.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.a7e2a5bd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.a7e2a5bd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/nii.676a8a3e.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.dd487011f0e49f04aff1d46502e7f685.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.2da559e4426024eb2d7987be5678189c.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.4192467c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/4.4192467c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.f5c2b344.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.f5c2b344.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.e1bc1dac.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.e1bc1dac.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.110c7ee6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.110c7ee6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/nii.bc292b4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.style.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <workItem from="1593592111076" duration="2535000" />
       <workItem from="1593776573251" duration="27509000" />
       <workItem from="1593851140835" duration="32340000" />
-      <workItem from="1594024708823" duration="1300000" />
+      <workItem from="1594024708823" duration="1826000" />
     </task>
     <servers />
   </component>
