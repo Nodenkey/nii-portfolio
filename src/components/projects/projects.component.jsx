@@ -107,7 +107,8 @@ const Projects = () => {
                         <p>The website was developed for a startup that specialises in UI/UX
                             design and web development. It was
                             created using React js, styled components and gsap for animations.</p>
-                        <Button/>
+                        <a href="https://wevops-portfolio.netlify.app/" target='_blank'
+                           rel="noopener noreferrer"><Button/></a>
                     </Description>
                 </ProjectDescription>
             </ProjectContainer>
@@ -135,7 +136,8 @@ const Projects = () => {
                             XD,
                             and
                             developed with React js, css, redux and redux sagas. Its backend was hosted on firebase.</p>
-                        <Button/>
+                        <a href="https://edanra.com/" target='_blank'
+                           rel="noopener noreferrer"><Button/></a>
                     </Description>
                 </ProjectDescription2>
             </ProjectContainer>
@@ -160,7 +162,8 @@ const Projects = () => {
                         <p>This website was developed for FrLogistics, a logistics moving and
                             warehousing company in Ghana. It was designed with webflow and developed with HTML, CSS and
                             javascript. The backend was developed using Django.</p>
-                        <Button/>
+                        <a href="https://frlogisticsltd.com/" target='_blank'
+                           rel="noopener noreferrer"><Button/></a>
                     </Description>
                 </ProjectDescription>
             </ProjectContainer>
@@ -187,7 +190,8 @@ const Projects = () => {
                             involved in
                             graphic design and
                             animations. It is being developed with React js and sass.</p>
-                        <Button/>
+                        <a href="https://drvmroll-design-portfolio.netlify.app/" target='_blank'
+                           rel="noopener noreferrer"><Button/></a>
                     </Description>
                 </ProjectDescription2>
             </ProjectContainer>
