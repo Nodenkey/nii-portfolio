@@ -50,7 +50,8 @@ export const ImageContainer = styled.div`
   width: 80%;
   margin: 0 10%;
   height: 300px;
-  &:before{
+  @media only screen and (min-width: 1200px){
+    &:before{
   content: '';
   display: inline-block;
   height: 100%;
@@ -58,6 +59,8 @@ export const ImageContainer = styled.div`
   z-index: 1;
   background: linear-gradient(transparent 0%, black 60%);
   }
+  }
+
   @media only screen and (min-width: 600px){
   position: absolute;
   width: 500px;

@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {
-    Connector, Connector2,
+    Connector, Connector2, Description,
     ImageContainer, ImageUltimate, ImageUltimate2,
     Line,
     ProjectContainer, ProjectDescription, ProjectDescription2,
@@ -15,6 +15,7 @@ import Wevops from "../../assets/images/wevops.jpg";
 import FrLogistics from "../../assets/images/frlogistics.jpg";
 import Portfolio from "../../assets/images/design-portfolio.jpg";
 import {ConnectLine, ConnectLine2} from "../icons/icons.component";
+import Button from "../button/button.component";
 
 const Projects = () => {
     let line = useRef(null);
@@ -102,9 +103,12 @@ const Projects = () => {
                 <ProjectNumber>no.1</ProjectNumber>
                 <ProjectDescription>
                     <Connector ref={el => connectWevops = el}><ConnectLine/></Connector>
-                    <p ref={el => storyWevops = el}>The website was developed for a startup that specialises in UI/UX
-                        design and web development. It was
-                        created using React js, styled components and gsap for animations.</p>
+                    <Description ref={el => storyWevops = el}>
+                        <p>The website was developed for a startup that specialises in UI/UX
+                            design and web development. It was
+                            created using React js, styled components and gsap for animations.</p>
+                        <Button/>
+                    </Description>
                 </ProjectDescription>
             </ProjectContainer>
             <ProjectContainer>
@@ -123,12 +127,16 @@ const Projects = () => {
                 </ImageUltimate2>
                 <ProjectNumber2>no.2</ProjectNumber2>
                 <ProjectDescription2>
-                    <Connector2 ref={el => connectEdanra = el}><ConnectLine2/></Connector2>
-                    <p ref={el => storyEdanra = el}>This website was developed for Edanra, a startup that provides a
-                        platform to link house owners to
-                        those in need of housing especially National service personnel. It was designed using Adobe XD,
-                        and
-                        developed with React js, css, redux and redux sagas. Its backend was hosted on firebase.</p>
+                    <Connector2><ConnectLine2/></Connector2>
+                    <Description ref={el => connectEdanra = el}>
+                        <p ref={el => storyEdanra = el}>This website was developed for Edanra, a startup that provides a
+                            platform to link house owners to
+                            those in need of housing especially National service personnel. It was designed using Adobe
+                            XD,
+                            and
+                            developed with React js, css, redux and redux sagas. Its backend was hosted on firebase.</p>
+                        <Button/>
+                    </Description>
                 </ProjectDescription2>
             </ProjectContainer>
             <ProjectContainer>
@@ -148,9 +156,12 @@ const Projects = () => {
                 <ProjectNumber>no.3</ProjectNumber>
                 <ProjectDescription>
                     <Connector ref={el => connectFr = el}><ConnectLine/></Connector>
-                    <p ref={el => storyFr = el}>This website was developed for FrLogistics, a logistics moving and
-                        warehousing company in Ghana. It was designed with webflow and developed with HTML, CSS and
-                        javascript. The backend was developed using Django.</p>
+                    <Description ref={el => storyFr = el}>
+                        <p>This website was developed for FrLogistics, a logistics moving and
+                            warehousing company in Ghana. It was designed with webflow and developed with HTML, CSS and
+                            javascript. The backend was developed using Django.</p>
+                        <Button/>
+                    </Description>
                 </ProjectDescription>
             </ProjectContainer>
             <ProjectContainer>
@@ -171,9 +182,14 @@ const Projects = () => {
                 <ProjectNumber2>no.4</ProjectNumber2>
                 <ProjectDescription2>
                     <Connector2 ref={el => connectDesign = el}><ConnectLine2/></Connector2>
-                    <p ref={el => storyDesign = el}>Design portfolio is being developed for a design company involved in
-                        graphic design and
-                        animations. It is being developed with React js and sass.</p></ProjectDescription2>
+                    <Description ref={el => storyDesign = el}>
+                        <p>Design portfolio is being developed for a design company
+                            involved in
+                            graphic design and
+                            animations. It is being developed with React js and sass.</p>
+                        <Button/>
+                    </Description>
+                </ProjectDescription2>
             </ProjectContainer>
         </ProjectsWrapper>
     );

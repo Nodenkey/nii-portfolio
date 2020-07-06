@@ -171,3 +171,4 @@ display: inline-block;
 export const Connector2 = styled(Connector)`
 margin-left: 26vw;
 `;
+export const Description = styled.div``;
